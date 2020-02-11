@@ -72,7 +72,7 @@ def write_tweets(tweets, filename):
 
 def main():
     search_phrases = ['Zimbabwe WildLife', 'Zimbabwe Tourism Authority', 'Zimbabwe Parks','Zimbabwe Parks and WildLife',
-                    'Zimbabwe Tourism', 'Zimbabwe Parks and Wildlife', 'Zimbabwe BeautifulZim']
+                      'Zimbabwe Tourism', 'Zimbabwe Parks and Wildlife', 'Zimbabwe BeautifulZim']
     time_limit = 0.5                           # runtime limit in hours
     max_tweets = 100                           # number of tweets per search (will be
                                                # iterated over) - maximum is 100
