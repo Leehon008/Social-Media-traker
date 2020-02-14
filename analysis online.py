@@ -12,10 +12,10 @@ class TwitterClient(object):
     def __init__(self):
 
           # keys and tokens from the Twitter Dev Console
-        consumer_key = 'UyoJGgBlRy8VcNdzJ0s16OyOl'
-        consumer_secret = '23odkMbHhpoOdjstS56LmVn1XnPRt3kZa5ay6ihQmyAoaDSXk7'
-        access_token = '4133498632-TziR44yO8UvXpvZUNnsIWq0KkuSHh238hWj0vPj'
-        access_token_secret = 'wT0U4valS7ljBk3lpAPVcuaP3oKsukhBQ6Flc2Q0rdHh4'
+        consumer_key = 'your key'
+        consumer_secret = 'your key'
+        access_token = 'your key'
+        access_token_secret = 'your key'
     
         try:
             self.auth = OAuthHandler(consumer_key, consumer_secret)
